@@ -12,8 +12,8 @@ bool isEstopTriggered = false;  // ESTOP Active
 
 WebServer server(80); // Server on port 80
 
-const char* ssid = "LouisMain";
-const char* password = "B3WECWXM";
+const char* ssid = "";
+const char* password = "";
 
 const int numReadings = 10;
 const int numSensors = 3;
